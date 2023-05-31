@@ -1,0 +1,30 @@
+extends ./layout/index
+
+block contenido
+    main.container.mt-5 
+        .row 
+            .col-md-5 
+                img(src="img/nosotros.jpg", alt="Imagen sobre nosotros", class="img-fluid")
+            .col-md-7
+                h1 #{pagina}
+                blockquote Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam feugiat ipsum id varius ornare. Phasellus sed felis odio. Duis facilisis leo ut erat lobortis ultricies. Morbi porta elit id augue luctus, id mollis lorem fringilla. Morbi et diam vitae nisl varius hendrerit non sed tellus. Morbi tempor eget diam placerat facilisis. Integer vulputate nunc vel lectus maximus, non porttitor velit commodo.
+                p Duis lacus ex, tincidunt vel nisi vel, venenatis mollis velit. Mauris pellentesque urna massa, eget interdum quam sodales efficitur. Aenean viverra, libero vestibulum fringilla consectetur, felis augue pellentesque ante, et elementum nulla ligula a metus. Donec feugiat quis nisi ac laoreet. Mauris laoreet mauris id eros molestie, et dapibus mi finibus. Ut ut finibus est. Aenean gravida felis at vulputate dictum. Sed in aliquet turpis, vitae porta erat.
+                p Phasellus scelerisque ultrices mi sagittis placerat. Sed sed ipsum accumsan, vestibulum odio eu, ultricies nisi. Aliquam aliquet consequat risus at auctor. Etiam vel nisl vitae nulla molestie pharetra in non mauris. Donec congue turpis ac eleifend sagittis. Fusce posuere dui at nulla congue semper. Integer quis tristique risus. Cras in placerat enim. Nam eu enim a velit rhoncus ultrices. Fusce porta et nulla vel tincidunt. Morbi vitae tristique elit. Maecenas in commodo lorem, non ornare ligula.
+
+    .listado-iconos 
+        .container.mt-5.py-5.text-center 
+            .row 
+                .col-md-4
+                    img(src="img/icono_seguridad.svg", alt="Icono Seguridad", class="img-fluid mb-4")
+                    h2.mb-4 Seguridad
+                    p  Fusce porta et nulla vel tincidunt. Morbi vitae tristique elit. Maecenas in commodo lorem, non ornare ligula.
+
+                .col-md-4
+                    img(src="img/icono_destinos.svg", alt="Icono Destino", class="img-fluid mb-4")
+                    h2.mb-4 Mejores Destino
+                    p  Fusce porta et nulla vel tincidunt. Morbi vitae tristique elit. Maecenas in commodo lorem, non ornare ligula.
+
+                .col-md-4
+                    img(src="img/icono_precio.svg", alt="Icono Precio", class="img-fluid mb-4")
+                    h2.mb-4 Los Mejores Precio
+                    p  Fusce porta et nulla vel tincidunt. Morbi vitae tristique elit. Maecenas in commodo lorem, non ornare ligula.
